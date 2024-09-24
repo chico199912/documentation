@@ -1,5 +1,5 @@
-site_name: icligo-payments-docs
-site_url: https://chico199912.github.io/documentation/
+site_name: Payments API
+site_url: https://icligo.github.io/documentation/
 site_dir: public
 extra_css:
   - assets/stylesheets/extra.css
@@ -31,14 +31,14 @@ theme:
   palette:
     - scheme: slate
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/toggle-switch-off-outline
         name: Switch to light mode
       primary: black
-      accent: green 
-    - scheme: default 
+      accent: green
+    - scheme: default
       toggle:
         icon: material/toggle-switch
-        name: Switch to dark mode    
+        name: Switch to dark mode
       primary: black
       accent: green
 
@@ -59,6 +59,6 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
-  
+
 copyright: |
   &copy; 2024 <span>ICligo</span>
