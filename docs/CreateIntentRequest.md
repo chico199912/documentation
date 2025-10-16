@@ -10,10 +10,12 @@ Name | Type | Description | Notes
 **resume** | [**ResumeDto**](ResumeDto.md) |  | [optional] 
 **products** | [**[ProductDto]**](ProductDto.md) | A list of products associated with the payment. | 
 **currency** | **String** | Currency code for the payment. | 
+**originalCurrency** | **String** | Original currency code for the payment. | 
 **company** | **String** | Company making the payment request. | 
 **microsite** | **String** | The microsite making the payment request. | 
 **country** | **String** | Country where the payment is being made. | 
 **amount** | **Number** | The amount to be charged. | 
+**originalAmount** | **Number** | The original amount to be charged. | 
 
 <a name="ProductTypeEnum"></a>
 ## Enum: ProductTypeEnum
